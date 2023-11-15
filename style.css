@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image:url('https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/819061b6-7d77-4e3b-96af-1075fb2de5cb/Bugatti%20Chiron%20Super%20Sport%20300%2B.jpeg?width=800&fm=jpg&auto=format'); */
+    background-image:url('https://suncitymotors.net/wp-content/uploads/2022/12/scm-sep-promo-pushing-V1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* color:black; */
+   color:white;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    box-shadow: 2px 2px 3px black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container table{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+select{
+    width: 50%;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    /* color:blue; */
+}
+select option{
+    background-color:lightblue;
+}
